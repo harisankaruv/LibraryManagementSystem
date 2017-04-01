@@ -57,7 +57,7 @@ public class AddBook extends javax.swing.JFrame {
             }
         });
 
-        jButton1.setText("Confirm");
+        jButton1.setText("Add");
 
         jButton2.setText("Cancel");
 
@@ -85,8 +85,8 @@ public class AddBook extends javax.swing.JFrame {
                             .addComponent(jTextField4, javax.swing.GroupLayout.DEFAULT_SIZE, 200, Short.MAX_VALUE)))
                     .addGroup(layout.createSequentialGroup()
                         .addGap(111, 111, 111)
-                        .addComponent(jButton1)
-                        .addGap(29, 29, 29)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 70, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(18, 18, 18)
                         .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 69, javax.swing.GroupLayout.PREFERRED_SIZE)))
                 .addContainerGap(40, Short.MAX_VALUE))
         );

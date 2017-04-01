@@ -49,7 +49,7 @@ public class DeleteBook extends javax.swing.JFrame {
 
         jLabel3.setText("Book Details");
 
-        jButton1.setText("Confirm");
+        jButton1.setText("Delete");
 
         jButton2.setText("Cancel");
 
